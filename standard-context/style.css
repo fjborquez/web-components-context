@@ -1,0 +1,33 @@
+/* Distintos estilos configurables por CSS */
+
+.Beautiful {
+    border-radius: 10px;
+    background-color: white;
+    font-family: Arial;
+    max-width: 300px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.Beautiful todo-li {
+    padding: 8px 16px 8px 8px;
+    cursor: pointer;
+}
+
+.Beautiful todo-li:hover {
+    color: orangered;
+}
+
+.Ugly {
+    background-color: tomato;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.Ugly todo-li {
+    padding: 8px 16px 8px 8px;
+    cursor: pointer;
+}
+
+todo-list+todo-list {
+    margin-left: 30px;
+}
